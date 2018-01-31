@@ -1,0 +1,20 @@
+h1{
+    color:coral;
+}
+.nav-tabs{
+    background-color:sandybrown;
+    width:1900px;
+    height:50px;
+}
+#setting{
+    color:slategray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right:200px;
+}
+#home{
+    color:slategray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right:300px;
+}
