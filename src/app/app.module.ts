@@ -1,41 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpModule} from '@angular/http';
-import {WeatherService} from './services/weather.service';
+import{User}from './models/user.model';
+import{UserService}from './services/user.services';
+import{FormsModule,ReactiveFormsModule}from '@angular/forms';
 import { AppComponent } from './app.component';
-import { SettingComponent } from './setting/setting.component';
-import {FormsModule} from '@angular/forms';
-import {RouterModule} from "@angular/router";
-import { HomeComponent } from './home/home.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { HttpModule } from '@angular/http';
 
 
-const myRoutes=[
-  {
-    path:'',component:HomeComponent
-  },
-  {
-    path:'setting' , component:SettingComponent
-  },
-  {
-    path:'home',component:HomeComponent
-  }
-
-];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SettingComponent,
-    HomeComponent
+    UserDetailsComponent,
+    
+   
   ],
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule,
-    RouterModule.forRoot(myRoutes)
+    ReactiveFormsModule
   ],
-  providers: [WeatherService],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
