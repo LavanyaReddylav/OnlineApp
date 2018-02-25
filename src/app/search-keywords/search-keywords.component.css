@@ -1,0 +1,21 @@
+#p1{
+    color:black;
+    height: 50px;
+    font-size:20px;
+    width:200px;
+    text-align: center;
+    background-color:peru;
+}
+#p2{
+    color:black;
+    height: 50px;
+    font-size:20px;
+    width:200px;
+    text-align: center;
+    background-color:peru;
+}
+
+.nav-tabs{
+  margin-left:500px;
+   
+}

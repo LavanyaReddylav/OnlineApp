@@ -1,0 +1,19 @@
+#word{
+  width:400px;
+}
+label{
+    width:400px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    border:2px solid peru;
+    width: 400px;
+    background-color:peru;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+button{
+    margin-left:150px;
+   
+}
